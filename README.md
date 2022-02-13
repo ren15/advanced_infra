@@ -21,11 +21,13 @@ This repo treats as the entry point for advanced infrastructure resources.
 - terraform
 https://registry.terraform.io/providers/hashicorp/kubernetes/latest/docs/guides/getting-started
 - kustomize
+- https://github.com/kubevirt/kubevirt
 
 ## Virtual machine
 
 - Convert container to qemu image
 - OSX-KVM
+- https://github.com/quickemu-project/quickemu
 
 ## Provision bare-metal
 - Proxmox VE
