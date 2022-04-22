@@ -18,8 +18,9 @@ docker run -d --name gitlab-runner --restart always \
 
 docker exec -it 
 
-[runners.docker]
-  pull_policy = ["if-not-present"]
+# concurrent = 5
+# [runners.docker]
+#   pull_policy = ["if-not-present"]
 
 docker restart
 
