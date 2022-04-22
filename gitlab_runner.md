@@ -25,3 +25,19 @@ docker exec -it
 docker restart
 
 ```
+
+
+
+## image from private registry
+
+https://docs.gitlab.com/ee/ci/docker/using_docker_images.html
+
+```bash
+docker login registry.example.com:5000 --username my_username --password my_password
+
+
+
+```
+save `~/.docker/config.json` to CI/CD variable `DOCKER_AUTH_CONFIG`
+
+
